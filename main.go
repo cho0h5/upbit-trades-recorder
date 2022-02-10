@@ -33,7 +33,7 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		log.Println(string(message))
+		// log.Println(string(message))
 
 		// insert to DB
 		var doc interface{}

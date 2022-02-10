@@ -21,7 +21,7 @@ func ConnectDB() DB {
                 panic(err)
         }
 
-	return DB { client, client.Database("test").Collection("books") }
+	return DB { client, client.Database("trades").Collection("XRP") }
 }
 
 func (db *DB) Disconnect() {
